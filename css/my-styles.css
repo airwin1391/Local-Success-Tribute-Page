@@ -1,0 +1,354 @@
+/* Navbar
+====================================== */
+
+.navbar-default {
+    background-color: rgba(255, 252, 248, 0.8);
+}
+
+/* Modal
+====================================== */
+
+.modal-dialog {
+    width: 60%;
+}
+
+.coffitivity-button {
+    width: 30vmin;
+    height: 10vmin;
+}
+
+/* Logos & Icons
+====================================== */
+
+.ground-logo {
+    width: 264px;
+	height: 104px;
+	margin-top: 22px;
+	overflow: hidden;
+	background: url('../img/ground-coffee-logo.png') no-repeat;
+	background-size: 100%;
+}
+
+.coffitivity-logo {
+    width: 242px;
+	height: 77px;
+	margin-top: 29px;
+	overflow: hidden;
+    padding: 5px;
+}
+
+
+.coffitivity-logo:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari */
+    transform: scale(1.2);
+    border: none;
+    box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    -o-box-shadow: 0 0 10px #333;
+    -ms-box-shadow: 0 0 10px #333;
+    border-radius: 7%;
+}
+
+/* Images
+====================================== */
+
+.cafe-photo {
+    margin-top: 9%;
+}
+
+.omar {
+    margin-bottom: 40px;
+    border-radius: 10%;
+}
+
+.dragon-coffee {
+    height: 300px;
+    width: 280px;
+    margin: 5px 0 0 20px;
+}
+
+.thumb-1 {
+    max-width: 350px;
+    max-height: 350px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+    transform-origin: 0 -880px;
+    position: relative;
+    z-index: 10;
+}
+
+.thumb-2 {
+    max-width: 350px;
+    max-height:350px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    transform-origin: 100px 500px;
+}
+
+.thumb-3 {
+    max-width: 350px;
+    max-height: 350px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    transform-origin: 100px -400px;
+}
+
+.thumb-4 {
+    max-width: 350px;
+    max-height: 350px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+    transform-origin: 400px -300px;
+}
+
+/* Jumbotron
+====================================== */
+
+.jumbotron {
+    background-image: url('../img/coffee-scent.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80vmin;
+    margin-bottom: 50px;
+}
+
+
+
+/* Styles
+====================================== */
+
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+h1 {
+    line-height: 1.7;
+    font-size: 3em;
+	font-weight: 900;
+    font-family: "Lato";
+    letter-spacing: 1.3px;
+}
+
+h2 {
+    line-height: 1.7;
+    font-size: 2.6em;
+	font-weight: 900;
+    font-family: "Lato";
+    letter-spacing: 1.3px;
+}
+
+p {
+	color: #848483;
+	line-height: 1.7;
+	font-size: 1.5em;
+	font-weight: 200;
+    text-align: justify;
+}
+
+ul {
+    color: #848483;
+	line-height: 1.7;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+a {
+    color: #2b9ca5;
+}
+
+blockquote {
+    background-color: rgba(64, 149, 155, .2);
+    border: inset;
+}
+
+/* Panel
+====================================== */
+
+.panel {
+    margin-top: 20px;
+    background-image: url("../img/rainforest-banner.jpg");
+    background-repeat: repeat-x;
+    background-size: 70px;
+    padding: 20px;
+    border: inset;
+}
+
+/* Footer
+====================================== */
+
+footer {
+    margin-top: 20px;
+    background-image: url("../img/rainforest-banner.jpg");
+    background-repeat: repeat-x;
+    background-size: 70px;
+    padding: 30px;
+    background-color: rgba(204, 234, 231, 0.2);
+}
+
+.footer-link {
+    font-family: "Lato";
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+
+.footer-end {
+	line-height: 1.2;
+	font-size: 1em;
+    text-align: center;
+}
+
+
+/* Media Queries
+====================================== */
+
+@media (max-width: 768px) {
+
+    .ground-logo {
+        width: 152px;
+        height: 62px;
+    }
+
+    .coffitivity-logo {
+        width: 160px;
+        height: 50px;
+        margin-top: 23px;
+    }
+
+    .cafe-photo {
+        width: 482px;
+        height: 277px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .panel {
+        margin-top: 0;
+    }
+
+    .thumb-1 {
+        max-width: 250px;
+        max-height: 150px;
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg);
+        transform-origin: 0 -380px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .thumb-2 {
+        max-width: 300px;
+        max-height: 190px;
+        -webkit-transform: rotate(-8deg);
+        -moz-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+        transform-origin: 100px 200px;
+    }
+
+    .thumb-3 {
+        max-width: 250px;
+        max-height: 150px;
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transform-origin: 100px -400px;
+    }
+
+    .thumb-4 {
+        max-width: 250px;
+        max-height: 150px;
+        -webkit-transform: rotate(-8deg);
+        -moz-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+        transform-origin: 400px;
+    }
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .footer-list {
+        list-style-type: none;
+        margin-left: -40px;
+    }
+
+    .thumb-1 {
+        max-width: 180px;
+        max-height: 130px;
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg);
+        transform-origin: 0 -380px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .thumb-2 {
+        max-width: 100px;
+        max-height: 190px;
+        -webkit-transform: rotate(-8deg);
+        -moz-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+        transform-origin: 100px 200px;
+    }
+
+    .thumb-3 {
+        max-width: 180px;
+        max-height: 130px;
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+        transform-origin: 100px -400px;
+    }
+
+    .thumb-4 {
+        max-width: 180px;
+        max-height: 130px;
+        -webkit-transform: rotate(-8deg);
+        -moz-transform: rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+        transform-origin: 200px;
+    }
+
+}
